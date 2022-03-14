@@ -8,5 +8,5 @@
 
 Cемантика HTML, методология БЭМ, grid-layout, флексбокс-вёрстка, медиа-запросы.
 
-**[Ссылка](https://ilyh0118.github.io/russian-travel/) на GitHub проект**
+**[Открыть страницу проекта](https://ilyh0118.github.io/russian-travel/)**
 
