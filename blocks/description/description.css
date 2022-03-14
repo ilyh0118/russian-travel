@@ -1,0 +1,32 @@
+.description {
+    margin: 0 0 0 148px;
+    padding: 0  0 92px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 690px;
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+    .description {
+        margin-left: 48px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .description {
+        margin-left: 24px;
+        padding-bottom: 88px;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .description {
+        margin: 0 auto;
+        padding-bottom: 65px;
+        max-width: 288px;
+    }
+}

@@ -1,0 +1,8 @@
+.description__facts {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}

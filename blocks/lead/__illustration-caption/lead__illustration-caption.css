@@ -1,0 +1,21 @@
+.lead__illustration-caption {
+    margin: 0;
+    padding: 8px 0 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .lead__illustration-caption {
+        padding: 8px 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__illustration-caption {
+        padding: 8px 0 0 16px;
+    }
+}
