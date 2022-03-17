@@ -2,10 +2,9 @@
     margin: 0 auto;
     padding-top: 0;
     box-sizing: border-box;
-    background-image: url("../../../images/lead-polka.jpg");
-    background-size: cover;
     width: 100%;
     height: 615px;
+    object-fit: cover;
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1279px) {

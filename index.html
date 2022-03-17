@@ -17,14 +17,18 @@
     <body class="page">
         <header class="header">
             <img class="header__logo" src="./images/header-logo.svg" alt="логотип проекта">
-            <div class="header__language-switch">
-                <a class="header__link header__link_active" target="blank" href="#">
-                    Ru
-                </a>
-                <a class="header__link" target="blank" href="#">
-                    En
-                </a>
-            </div>
+            <ul class="header__language-switch list">
+                <li>
+                    <a class="header__link header__link_active" target="blank" href="#">
+                        Ru
+                    </a>
+                </li>
+                <li>
+                    <a class="header__link" target="blank" href="#">
+                        En
+                    </a>
+                </li>
+            </ul>
         </header>
         <main class="content">
             <section class="lead">
@@ -34,13 +38,10 @@
                 <p class="lead__subtitle">
                     Настоящая страна не в выпусках новостей, а здесь.
                 </p>
-                <div class="lead__illustration-container">
-                    <div class="lead__main-illustration">
-                    </div>
-                    <h3 class="lead__illustration-caption">
-                        ВАША ПОЛКА — ВЕРХНЯЯ
-                    </h3>
-                </div>
+                <img class="lead__main-illustration" src="./images/lead-polka.jpg" alt="купе фото">
+                <p class="lead__illustration-caption">
+                    ВАША ПОЛКА — ВЕРХНЯЯ
+                </p>
             </section>
             <section class="description">
                 <h3 class="description__title">
@@ -91,22 +92,47 @@
                     </li>
                 </ul>
             </section>
-            <aria-label class="photo-grid">
-                <div class="photo-grid__item"></div>
-                <div class="photo-grid__item"></div>
-                <div class="photo-grid__item"></div>
-                <div class="photo-grid__item"></div>
-                <div class="photo-grid__item"></div>
-                <div class="photo-grid__item"></div>
-                <div class="photo-grid__item"></div>
-                <div class="photo-grid__item"></div>
-                <div class="photo-grid__item"></div>
-                <div class="photo-grid__item"></div>
-                <div class="photo-grid__item"></div>
-                <div class="photo-grid__item"></div>    
-            </aria-label>
-            <aria-label class="places">
-                <article class="places__place">
+            <section class="section-photo">
+                <ul class="section-photo__grid list">
+                    <li>
+                        <img src="./images/photo-grid-train.jpg" alt="купе фото" class="section-photo__item"></li>
+                    <li>                            
+                        <img src="./images/photo-grid-atharva-tulsi.jpg" alt="высокогорье фото" class="section-photo__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-tuman.jpg" alt="туман фото" class="section-photo__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-sochi.jpg" alt="лес в тумане фото" class="section-photo__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-arisa.jpg" alt="машина на льду фото" class="section-photo__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-baikal.jpg" alt="байкал фото" class="section-photo__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-elbrus.jpg" alt="эльбрус фото" class="section-photo__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-kondratiev.jpg" alt="тетрапод фото" class="section-photo__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-kamchatka-1.jpg" alt="камчатка фото" class="section-photo__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-kamchatka-2.jpg" alt="гора на камчатке фото" class="section-photo__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-baikal-2.jpg" alt="байкал фото" class="section-photo__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-ergaki.jpg" alt="туман в горах фото" class="section-photo__item">
+                    </li>
+                </ul>
+            </section>
+            <section class="places">
+                <div class="places__place">
                     <h2 class="places__title">
                         Куршская&ensp; коса
                     </h2>
@@ -127,8 +153,8 @@
                             На этом Калининградская область не заканчивается. Для&nbsp;путешественника и&nbsp;исследователя там же по&nbsp;соседству — самая западная точка России, Балтийская коса, — и&nbsp;немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в&nbsp;спокойствие природы и&nbsp;запах стального, прохладного моря.
                         </p>
                     </div>
-                </article>
-                <article class="places__place">
+                </div>
+                <div class="places__place">
                     <h2 class="places__title">
                         Кольский
                     </h2>
@@ -150,8 +176,8 @@
                             в&nbsp;Мурманск.
                         </p>
                     </div>
-                </article>
-                <article class="places__place">
+                </div>
+                <div class="places__place">
                     <h2 class="places__title">
                         Алтай
                     </h2>
@@ -172,8 +198,8 @@
                             Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси,&nbsp;над хребтами летают орлы, а&nbsp;на равнинах пасутся косули. И&nbsp;знаменитые манулы — тоже обитатели Алтайского края.
                         </p>
                     </div>
-                </article>
-                <article class="places__place">
+                </div>
+                <div class="places__place">
                     <h2 class="places__title">
                         Зимний Байкал
                     </h2>
@@ -194,8 +220,8 @@
                             Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и&nbsp;тандем старается развить как&nbsp;можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
                         </p>
                     </div>
-                </article>
-                <article class="places__place">
+                </div>
+                <div class="places__place">
                     <h2 class="places__title">
                         Карелия
                     </h2>
@@ -213,18 +239,17 @@
                             Сибирь заканчивается не на Урале, а&nbsp;в&nbsp;Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на&nbsp;30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем&nbsp;полтысячелетия. Прикоснитесь к живому существу, видевшему солнце&nbsp;раньше, чем увидал его Иван Грозный. В&nbsp;девственном лесу на сотню километров не встретишь тропы. А&nbsp;на редких тропинках деревья в&nbsp;паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
                         </p>
                     </div>
-                </article>
-            </aria-label>
-            <section class="cover">
-                <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
+                </div>
+            </section>
+            <section class="cover">                
+                <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
                     <h2 class="cover__title">
                         До Байкала &laquo;на&nbsp;собаках&raquo;
                     </h2>
                     <p class="cover__subtitle">
                         По мотивам учебной темы о&nbsp;Транссибе — путешествие от&nbsp;столицы до Байкала на электричках.
                     </p>
-                    <div class="cover__overlay"></div>
-                </a>                
+                </a>                               
             </section>
         </main>
         <footer class="footer">
@@ -245,9 +270,9 @@
                     Путешествия
                 </a>
             </nav>
-            <h4 class="footer__copyright">
+            <p class="footer__copyright">
                 &copy; 2022. Илья Калинин
-            </h4>
+            </p>
         </footer>        
     </body>
 </html>
